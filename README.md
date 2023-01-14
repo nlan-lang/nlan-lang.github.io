@@ -1,1 +1,3 @@
-# nlan-lang.github.io
+# NLAN Language
+
+> NLAN's Leading All Net!

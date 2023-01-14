@@ -1,0 +1,16 @@
+<svg version="1.1" width="79.5" height="27" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Josefin Sans:100thin');
+    @import url('https://fonts.googleapis.com/css?family=Pacifico'); 
+    @import url('https://fonts.googleapis.com/css?family=GFS Didot');
+</style>
+</defs>
+<circle cx="30" cy="30" r="30" transform="scale(0.3,0.3)" stroke-width="0" fill="#40a6ee"/>
+<circle cx="75" cy="75" r="15" transform="scale(0.3,0.3)" stroke-width="0" fill="#40a6ee"/>
+<path d="M 30 60 C 30 60 55 55 60 75 L 75 60 C 75 60 55 55 60 30 Z" transform="scale(0.3,0.3)" stroke-width="0" fill="#40a6ee"/>
+<path d="M 11 43 l -1 2 l 10 -20 l 0 10 l 10 -20 l 0 20 l 5 0 l 5 -10 l 0 10 l 5 -10 l 0 10 l 5 -10 l -1 2 m -9 3 l -2.5 0" transform="scale(0.3,0.3)" stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+<text x="28" y="45" transform="scale(0.3,0.3)" fill="white" style="font-family:'Pacifico';font-size:9px;">v1.0.0</text>
+<text x="70" y="77" transform="scale(0.3,0.3)" fill="white" style="font-family:'GFS Didot';font-size:18px;">η</text>
+<text x="95" y="65" transform="scale(0.3,0.3)" fill="black" style="font-size:60px;font-family:'Josefin Sans';">NLAN</text>
+</svg>

@@ -3,6 +3,3 @@
 > NLAN's Leading All Net!
 
 ## 简介
-
-## 语法基础
-

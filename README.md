@@ -1,8 +1,8 @@
-# NLAN è¯­è¨€ <!-- {docsify-ignore-all} -->
+# NLAN ÓïÑÔ <!-- {docsify-ignore-all} -->
 
 > Elegant, Legible, Convenient, Rigorous, Lightweight and Reusable. **N**LAN's **L**eading **A**ll **N**et!
 
-## ç®€ä»‹
+## ¼ò½é
 
-NLAN æ˜¯ä¸€æ¬¾é¢å‘å¯¹è±¡çš„ç¼–ç¨‹è¯­è¨€ï¼ŒåŒæ—¶ä¹Ÿæ”¯æŒå‡½æ•°å¼ç¼–ç¨‹ã€‚
+NLAN ÊÇÒ»¿îÃæÏò¶ÔÏóµÄ±ê×¼»¯¸ß¼¶±à³ÌÓïÑÔ£¬Ò²Ö§³Öº¯ÊýÊ½±à³ÌÓëÔª±à³Ì¡£
 

@@ -85,9 +85,9 @@
   }
 }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </head>
 <body>
   <div id="app"><div class="loading">
@@ -118,7 +118,22 @@
          theme      : 'classic', // default
          tabComments: true,      // default
          tabHeadings: true       // default
-      }
+      },
+  plugins: [
+    function(hook) {
+      var footer = [
+        '<hr/>',
+        '<footer>',
+        '<span><a href="https://github.com/Suruka">Suruka</a> &copy;2023.</span>',
+        '<span>All rights reserved.</span>',
+        '</footer>'
+      ].join('');
+
+      hook.afterEach(function(html) {
+        return html + footer;
+      });
+    }
+  ]
     }
   </script>
   <!-- Docsify v4 -->

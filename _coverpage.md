@@ -2,7 +2,7 @@
 
 Elegant, Legible, Convenient, Rigorous, Lightweight and Reusable.
 
-[GitHub](https://github.com/nlan-lang/nlan-lang.github.io/) [Getting Started](#NLAN-语言)
+[GitHub](https://github.com/nlan-lang/nlan-lang.github.io/) [Getting Started](basic/)
 
 <!-- background image -->
 

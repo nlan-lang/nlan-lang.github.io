@@ -1,19 +1,8 @@
 (function (Prism) {
     var comment = /\'\'.*|#(?!\[).*|\'[\s\S]+?\'/;
+    var functions = /(?<=@\{[\s\S]*)[^,\s]+(?=[\s\S]*\}\()|(?<=@)([^\s\{\}\:]+?)(?=\()|(?<=@)[\S]+(?=::)/i;
     Prism.languages.nlan = {
-        'comment':comment
+        'comment': comment,
+        'function': functions
     };
-    Prism.languages.insertBefore('nlan', 'keyword', {
-        'generic-function': {
-            pattern: /\b(?!operator\b)[a-z_@]\w*\s*<(?:[^<>]|<[^<>]*>)*>(?=\s*\()/i,
-            inside: {
-                'function': /^\w+/,
-                'generic': {
-                    pattern: /<[\s\S]+/,
-                    alias: 'class-name',
-                    inside: Prism.languages.nlan
-                }
-            }
-        }
-    });
 }(Prism));

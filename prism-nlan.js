@@ -10,10 +10,15 @@
         lookbehind: false,
         greedy: true,
         alias: 'important'
+    };
+    var strings  = {
+        pattern: /`[^\\]*?`|".*?"/i,
+        greedy: true
     }
     Prism.languages.nlan = {
         'comment': comment,
         'function': functions,
         'class-name': classname,
+        'string': strings
     };
 }(Prism));

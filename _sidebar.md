@@ -1,2 +1,3 @@
-# [语言基础](basic/  "语言基础")
+# **语言基础**
 
+- [基本架构](basic/basic_architecture)

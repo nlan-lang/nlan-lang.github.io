@@ -1,5 +1,5 @@
 (function (Prism) {
-    var comment = /\'[\s\S]*?\'|\'\'.*|#(?!\[).*/;
+    var comment = /\'[\s\S]*?\'|\'\'[\s\S]*?/;
     Prism.languages.nlan = {
         'comment':comment
     };

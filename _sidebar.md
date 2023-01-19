@@ -1,4 +1,3 @@
-**语言基础**
-
-- [基本架构](basic/basic_architecture)
+- **语言基础**
+  - [基本架构](basic/basic_architecture)
 

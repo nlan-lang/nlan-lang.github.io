@@ -7,7 +7,8 @@
     };
     var classname = {
         pattern: /(?<=(type|interface)[\s]+#?[\s]*)[^\s#:]*?(?=[\s]*[\{|::])|(?<=::[\s]*\{.*,[\s]*)[\S]+?(?=\W)|(?<=::[\s]*\{[\s]*)[\S]+?(?=\W)|(?<=::)[^\s\{]+?(?=\W)/i,
-        lookbehind: false
+        lookbehind: false,
+        greedy: true
     }
     Prism.languages.nlan = {
         'comment': comment,

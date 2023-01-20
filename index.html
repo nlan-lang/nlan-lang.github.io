@@ -150,12 +150,8 @@
       },
       plugins: [
         function (hook) {
-          var footer = [
-            '<span>Copyright <a href="https://github.com/Suruka">Suruka</a> &copy;2023. All rights reserved.</span>'
-          ].join('');
-
           hook.afterEach(function (html) {
-            return html + footer;
+            return html + '<span>Copyright <a href="https://github.com/Suruka">Suruka</a> &copy;2023. All rights reserved.</span>';
           });
         }
       ]

@@ -2,7 +2,7 @@
 
 下面是一个基本的 NLAN 语言程序：
 
-<pre class="language-nlan match-braces rainbow-braces line-numbers"><code language="nlan">>>`NLAN v1.0.0{style: strict}`; 'This is importing the base package.'
+<pre class="language-nlan match-braces rainbow-braces line-numbers" language="nlan"><code>>>`NLAN v1.0.0{style: strict}`; 'This is importing the base package.'
 int @{add,_+}(int $number1,$number2::Integer){ ''Define a command-block named add or _+.
 	return ($number1+$number2)::int; 'Return the value of a+b.'
 }
